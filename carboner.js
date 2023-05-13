@@ -3,12 +3,10 @@ elements.oofman = {
     category: "machines",
     state: "solid",
     density: 720,
+    behavior: behaviors.SOLID,
     tick: function(pixel) {
             createPixel("carbon_dioxide", pixel.x, pixel.y+1);
     },
 };
 
 
-behaviors.oofman.tick = function(pixel) {
-    createPixel("carbon_dioxide", pixel.x, pixel.y+1);
-};
