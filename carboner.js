@@ -1,6 +1,6 @@
 elements.carboner = {
     color: ["#f5eac6","#d4c594","#a89160","#7a5733","#523018","#361e0e"],
-    category: "machines",
+    category: "life",
     properties: {
         on: true,
         
